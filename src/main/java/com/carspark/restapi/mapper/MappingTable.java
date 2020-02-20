@@ -1,7 +1,5 @@
 package com.carspark.restapi.mapper;
 
-import java.util.Optional;
-
 public class MappingTable {
 
   private String table;
