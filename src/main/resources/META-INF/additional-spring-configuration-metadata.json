@@ -1,9 +1,10 @@
 {
   "properties": [
     {
-      "name": "agnosticframework.file",
+      "name": "agnostic-framework.file",
       "type": "java.lang.String",
-      "description": "Description for agnosticframework.file."
+      "defaultValue": "mapping.json",
+      "description": "Description for agnostic-framework.file."
     }
   ]
 }

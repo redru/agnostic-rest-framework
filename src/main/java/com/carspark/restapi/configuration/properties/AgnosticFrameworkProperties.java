@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationProperties(prefix = "agnosticframework")
+@ConfigurationProperties(prefix = "agnostic-framework")
 public class AgnosticFrameworkProperties {
 
   private String file = "mappings.json";

@@ -5,5 +5,5 @@ spring:
     password: pwd
     driver-class-name: com.mysql.jdbc.Driver
 
-agnosticframework:
+agnostic-framework:
   file: mapping.json
