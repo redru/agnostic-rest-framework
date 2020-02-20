@@ -1,6 +1,6 @@
 package com.carspark.restapi;
 
-import com.carspark.sql.TableEntity;
+import com.carspark.restapi.sql.TableEntity;
 import org.jooq.DSLContext;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

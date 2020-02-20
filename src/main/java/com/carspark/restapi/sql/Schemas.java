@@ -1,4 +1,4 @@
-package com.carspark.sql;
+package com.carspark.restapi.sql;
 
 import java.util.HashMap;
 import java.util.Map;

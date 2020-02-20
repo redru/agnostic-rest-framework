@@ -1,4 +1,4 @@
-package com.carspark.sql;
+package com.carspark.restapi.sql;
 
 import org.jooq.*;
 import org.jooq.impl.DSL;

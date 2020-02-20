@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "agnosticframework.file",
+      "type": "java.lang.String",
+      "description": "Description for agnosticframework.file."
+    }
+  ]
+}

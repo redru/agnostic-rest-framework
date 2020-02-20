@@ -9,15 +9,11 @@ import org.springframework.core.io.ClassPathResource;
 
 import java.io.InputStream;
 
-
-@Configuration
 public class MapperConfiguration {
 
     private static Logger LOG= LoggerFactory.getLogger(MapperConfiguration.class);
     private static ObjectMapper MAPPER=new ObjectMapper();
 
-
-    @Bean
     public ResourcesMapper getResourcesMapper() {
         ResourcesMapper ret=null;
         try {

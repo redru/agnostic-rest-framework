@@ -1,28 +1,41 @@
 {
-  "film": {
-    "table": "film",
-    "mappings": {
-      "film_id": "id",
-      "title": "title",
-      "description": "desc",
-      "release_year": "year",
-      "language_id": "languageId",
-      "original_language_id": "originalLanguageId",
-      "rental_duration": "rentalDuration",
-      "length": "length",
-      "replacement_cost": "cost",
-      "rating": "rating",
-      "special_features": "special",
-      "last_update": "updated"
+  "vehicle": {
+    "table": "vehicle",
+    "id": "id",
+    "relation": {
+      "table": "body_type",
+      "id": "body_type.id",
+      "links": [
+        { "left": "body_type.id", "right": "vehicle.body_type_id" }
+      ]
     }
   },
-  "actor": {
-    "table": "actor",
-    "mappings": {
-      "actor_id": "id",
-      "first_name": "FirstName",
-      "last_name": "LastName",
-      "last_update": "Updated"
-    }
+  "body_type": {
+    "table": "body_type",
+    "id": "id"
+  },
+  "color": {
+    "table": "color",
+    "id": "id"
+  },
+  "color_type": {
+    "table": "color_type",
+    "id": "id"
+  },
+  "company": {
+    "table": "company",
+    "id": "id"
+  },
+  "dealer": {
+    "table": "dealer",
+    "id": "id"
+  },
+  "fuel_type": {
+    "table": "fuel_type",
+    "id": "id"
+  },
+  "gear_type": {
+    "table": "gear_type",
+    "id": "id"
   }
 }
